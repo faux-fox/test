@@ -1,0 +1,85 @@
+* {
+	/* These will reset the behaviour of padding so your width doesn't get bigger if you add padding */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container1 {
+	width: 50%;
+	margin: 100px 25%;
+	height: 400px;
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.flex1 {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
+
+.flex2 {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 50%;
+	margin-top: -50px;
+}
+
+.container2 {
+	width: 50%;
+	height: 400px;
+	margin: 0px 25%;
+	background-color: lightblue;
+	position: relative;
+}
+
+.item1 {
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px; 
+	top: 50%;
+	margin-top: -75px;
+}
+
+.item2 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.container3 {
+	background-color: red;
+	height: 100vh;
+	padding: 50px;
+}
+
+.sticky {
+	font-family: futura;
+	margin-top: 0px;
+	position: sticky;
+	top: 100px;
+}
+
+.container4 {
+	height: 600px;
+	padding-left: 50px;
+	background-color: pink;
+}
